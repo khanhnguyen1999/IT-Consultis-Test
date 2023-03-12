@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@root/*": [
+        "src/*"
+      ],
+      "@core/*": [
+        "src/core/*"
+      ],
+      "@modules": [
+        "src/modules"
+      ],
+      "@modules/*": [
+        "src/modules/*"
+      ],
+      "@store/*": [
+        "src/store/*"
+      ],
+      "@Home/*": [
+        "src/modules/Home/*"
+      ],
+      "@AdminManager/*": [
+        "src/modules/AdminManager/*"
+      ],
+      "@StoreManager/*": [
+        "src/modules/StoreManager/*"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@mock/*": [
+        "src/mock/*"
+      ],
+    }
+  }
+}
