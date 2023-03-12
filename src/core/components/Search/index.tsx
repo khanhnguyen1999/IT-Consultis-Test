@@ -116,9 +116,10 @@ const Search = ({
           size="middle"
           extra={extra}
         >
-          {fields.map((field) => {
+          {fields?.map((field) => {
             return (
               <Descriptions.Item
+                style={{width: '50%'}}
                 span={field.span}
                 key={field.name}
                 label={field.label}
